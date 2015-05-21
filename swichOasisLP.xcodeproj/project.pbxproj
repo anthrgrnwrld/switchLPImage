@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36EA0D2F1B0DEEAE00B1EF48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA0D2E1B0DEEAE00B1EF48 /* AppDelegate.swift */; };
+		36EA0D311B0DEEAE00B1EF48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA0D301B0DEEAE00B1EF48 /* ViewController.swift */; };
+		36EA0D341B0DEEAE00B1EF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D321B0DEEAE00B1EF48 /* Main.storyboard */; };
+		36EA0D361B0DEEAE00B1EF48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D351B0DEEAE00B1EF48 /* Images.xcassets */; };
+		36EA0D391B0DEEAE00B1EF48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D371B0DEEAE00B1EF48 /* LaunchScreen.xib */; };
+		36EA0D451B0DEEAE00B1EF48 /* swichOasisLPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA0D441B0DEEAE00B1EF48 /* swichOasisLPTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36EA0D3F1B0DEEAE00B1EF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36EA0D211B0DEEAE00B1EF48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EA0D281B0DEEAE00B1EF48;
+			remoteInfo = swichOasisLP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36EA0D291B0DEEAE00B1EF48 /* swichOasisLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swichOasisLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EA0D2D1B0DEEAE00B1EF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EA0D2E1B0DEEAE00B1EF48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36EA0D301B0DEEAE00B1EF48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36EA0D331B0DEEAE00B1EF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36EA0D351B0DEEAE00B1EF48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36EA0D381B0DEEAE00B1EF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		36EA0D3E1B0DEEAE00B1EF48 /* swichOasisLPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swichOasisLPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EA0D431B0DEEAE00B1EF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EA0D441B0DEEAE00B1EF48 /* swichOasisLPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swichOasisLPTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EA0D261B0DEEAE00B1EF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EA0D3B1B0DEEAE00B1EF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36EA0D201B0DEEAE00B1EF48 = {
+			isa = PBXGroup;
+			children = (
+				36EA0D2B1B0DEEAE00B1EF48 /* swichOasisLP */,
+				36EA0D411B0DEEAE00B1EF48 /* swichOasisLPTests */,
+				36EA0D2A1B0DEEAE00B1EF48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36EA0D2A1B0DEEAE00B1EF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EA0D291B0DEEAE00B1EF48 /* swichOasisLP.app */,
+				36EA0D3E1B0DEEAE00B1EF48 /* swichOasisLPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36EA0D2B1B0DEEAE00B1EF48 /* swichOasisLP */ = {
+			isa = PBXGroup;
+			children = (
+				36EA0D2E1B0DEEAE00B1EF48 /* AppDelegate.swift */,
+				36EA0D301B0DEEAE00B1EF48 /* ViewController.swift */,
+				36EA0D321B0DEEAE00B1EF48 /* Main.storyboard */,
+				36EA0D351B0DEEAE00B1EF48 /* Images.xcassets */,
+				36EA0D371B0DEEAE00B1EF48 /* LaunchScreen.xib */,
+				36EA0D2C1B0DEEAE00B1EF48 /* Supporting Files */,
+			);
+			path = swichOasisLP;
+			sourceTree = "<group>";
+		};
+		36EA0D2C1B0DEEAE00B1EF48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36EA0D2D1B0DEEAE00B1EF48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36EA0D411B0DEEAE00B1EF48 /* swichOasisLPTests */ = {
+			isa = PBXGroup;
+			children = (
+				36EA0D441B0DEEAE00B1EF48 /* swichOasisLPTests.swift */,
+				36EA0D421B0DEEAE00B1EF48 /* Supporting Files */,
+			);
+			path = swichOasisLPTests;
+			sourceTree = "<group>";
+		};
+		36EA0D421B0DEEAE00B1EF48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36EA0D431B0DEEAE00B1EF48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36EA0D281B0DEEAE00B1EF48 /* swichOasisLP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EA0D481B0DEEAE00B1EF48 /* Build configuration list for PBXNativeTarget "swichOasisLP" */;
+			buildPhases = (
+				36EA0D251B0DEEAE00B1EF48 /* Sources */,
+				36EA0D261B0DEEAE00B1EF48 /* Frameworks */,
+				36EA0D271B0DEEAE00B1EF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swichOasisLP;
+			productName = swichOasisLP;
+			productReference = 36EA0D291B0DEEAE00B1EF48 /* swichOasisLP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36EA0D3D1B0DEEAE00B1EF48 /* swichOasisLPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EA0D4B1B0DEEAE00B1EF48 /* Build configuration list for PBXNativeTarget "swichOasisLPTests" */;
+			buildPhases = (
+				36EA0D3A1B0DEEAE00B1EF48 /* Sources */,
+				36EA0D3B1B0DEEAE00B1EF48 /* Frameworks */,
+				36EA0D3C1B0DEEAE00B1EF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EA0D401B0DEEAE00B1EF48 /* PBXTargetDependency */,
+			);
+			name = swichOasisLPTests;
+			productName = swichOasisLPTests;
+			productReference = 36EA0D3E1B0DEEAE00B1EF48 /* swichOasisLPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36EA0D211B0DEEAE00B1EF48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Masaki Horimoto";
+				TargetAttributes = {
+					36EA0D281B0DEEAE00B1EF48 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					36EA0D3D1B0DEEAE00B1EF48 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 36EA0D281B0DEEAE00B1EF48;
+					};
+				};
+			};
+			buildConfigurationList = 36EA0D241B0DEEAE00B1EF48 /* Build configuration list for PBXProject "swichOasisLP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36EA0D201B0DEEAE00B1EF48;
+			productRefGroup = 36EA0D2A1B0DEEAE00B1EF48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36EA0D281B0DEEAE00B1EF48 /* swichOasisLP */,
+				36EA0D3D1B0DEEAE00B1EF48 /* swichOasisLPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36EA0D271B0DEEAE00B1EF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EA0D341B0DEEAE00B1EF48 /* Main.storyboard in Resources */,
+				36EA0D391B0DEEAE00B1EF48 /* LaunchScreen.xib in Resources */,
+				36EA0D361B0DEEAE00B1EF48 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EA0D3C1B0DEEAE00B1EF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EA0D251B0DEEAE00B1EF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EA0D311B0DEEAE00B1EF48 /* ViewController.swift in Sources */,
+				36EA0D2F1B0DEEAE00B1EF48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EA0D3A1B0DEEAE00B1EF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EA0D451B0DEEAE00B1EF48 /* swichOasisLPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36EA0D401B0DEEAE00B1EF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EA0D281B0DEEAE00B1EF48 /* swichOasisLP */;
+			targetProxy = 36EA0D3F1B0DEEAE00B1EF48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36EA0D321B0DEEAE00B1EF48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EA0D331B0DEEAE00B1EF48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36EA0D371B0DEEAE00B1EF48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EA0D381B0DEEAE00B1EF48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36EA0D461B0DEEAE00B1EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36EA0D471B0DEEAE00B1EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36EA0D491B0DEEAE00B1EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swichOasisLP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36EA0D4A1B0DEEAE00B1EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swichOasisLP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36EA0D4C1B0DEEAE00B1EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swichOasisLPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swichOasisLP.app/swichOasisLP";
+			};
+			name = Debug;
+		};
+		36EA0D4D1B0DEEAE00B1EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swichOasisLPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swichOasisLP.app/swichOasisLP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EA0D241B0DEEAE00B1EF48 /* Build configuration list for PBXProject "swichOasisLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EA0D461B0DEEAE00B1EF48 /* Debug */,
+				36EA0D471B0DEEAE00B1EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EA0D481B0DEEAE00B1EF48 /* Build configuration list for PBXNativeTarget "swichOasisLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EA0D491B0DEEAE00B1EF48 /* Debug */,
+				36EA0D4A1B0DEEAE00B1EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36EA0D4B1B0DEEAE00B1EF48 /* Build configuration list for PBXNativeTarget "swichOasisLPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EA0D4C1B0DEEAE00B1EF48 /* Debug */,
+				36EA0D4D1B0DEEAE00B1EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36EA0D211B0DEEAE00B1EF48 /* Project object */;
+}
