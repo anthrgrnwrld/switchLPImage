@@ -55,6 +55,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        println("\(__FUNCTION__)")
 
         //表示したいLP画像名を設定する (実際の表示はviewDidLayoutSubviewsで行う)
         for (index, val) in enumerate(initialLPArray) {
@@ -71,6 +72,24 @@ class ViewController: UIViewController {
 
         
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        println("\(__FUNCTION__)")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        println("\(__FUNCTION__)")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        println("\(__FUNCTION__)")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        println("\(__FUNCTION__)")
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -79,6 +98,7 @@ class ViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        println("\(__FUNCTION__)")
         
         for (index, val) in enumerate(initialLPArray) {
             imageLPArray[index].image = UIImage(named: "\(imageLPArray[index].lpName).jpg")
@@ -97,6 +117,8 @@ class ViewController: UIViewController {
             pointImage.start.touchPoint = touch.locationInView(self.view)
             pointImage.draggingView = touch.view
             touch.view.layer.opacity = 0.5
+            touch.view.layer.shadowOpacity = 0.8
+
         } else {
             //Do nothing
         }
@@ -125,8 +147,6 @@ class ViewController: UIViewController {
     override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         let touch = touches.first as! UITouch
     
-        //タッチ完了時に最も近いlocation位置へアニメーションで吸着する処理
-        //タッチsaretaviewのtagとpointBeHereNowに保存されたtagと等しい時のみ画像を動かす
         if touch.view == pointImage.draggingView {
             let tmpLPImageView: lpImageView = touch.view as! lpImageView
             var distance: distanceClass = distanceClass()   //locationとの距離を管理する変数
@@ -170,6 +190,7 @@ class ViewController: UIViewController {
         if distance.distanceArray[distance.minIndex] < 50 * sqrt(2.000) {
             imageLP.center = pointImage.start.imagePoint
             imageLP.layer.opacity = 1.0
+            imageLP.layer.shadowOpacity = 0.0
    
             outputLabel[distance.minIndex].text = "\(imageLP.lpName)"
             outputFrame[distance.minIndex].image = UIImage(named: "\(imageLP.lpName).jpg")
