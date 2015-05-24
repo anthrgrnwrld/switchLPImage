@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366588431B115183006CC10A /* swichOasisLP.gif in Resources */ = {isa = PBXBuildFile; fileRef = 366588421B115183006CC10A /* swichOasisLP.gif */; };
 		36EA0D2F1B0DEEAE00B1EF48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA0D2E1B0DEEAE00B1EF48 /* AppDelegate.swift */; };
 		36EA0D311B0DEEAE00B1EF48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA0D301B0DEEAE00B1EF48 /* ViewController.swift */; };
 		36EA0D341B0DEEAE00B1EF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D321B0DEEAE00B1EF48 /* Main.storyboard */; };
 		36EA0D361B0DEEAE00B1EF48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D351B0DEEAE00B1EF48 /* Images.xcassets */; };
 		36EA0D391B0DEEAE00B1EF48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D371B0DEEAE00B1EF48 /* LaunchScreen.xib */; };
 		36EA0D451B0DEEAE00B1EF48 /* swichOasisLPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA0D441B0DEEAE00B1EF48 /* swichOasisLPTests.swift */; };
+		36EA0D511B0E02B700B1EF48 /* BeHereNow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D4E1B0E02B700B1EF48 /* BeHereNow.jpg */; };
+		36EA0D521B0E02B700B1EF48 /* DefinitelyMaybe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D4F1B0E02B700B1EF48 /* DefinitelyMaybe.jpg */; };
+		36EA0D531B0E02B700B1EF48 /* MorningGlory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36EA0D501B0E02B700B1EF48 /* MorningGlory.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		366588421B115183006CC10A /* swichOasisLP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swichOasisLP.gif; sourceTree = "<group>"; };
 		36EA0D291B0DEEAE00B1EF48 /* swichOasisLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swichOasisLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EA0D2D1B0DEEAE00B1EF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36EA0D2E1B0DEEAE00B1EF48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		36EA0D3E1B0DEEAE00B1EF48 /* swichOasisLPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swichOasisLPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EA0D431B0DEEAE00B1EF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36EA0D441B0DEEAE00B1EF48 /* swichOasisLPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swichOasisLPTests.swift; sourceTree = "<group>"; };
+		36EA0D4E1B0E02B700B1EF48 /* BeHereNow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeHereNow.jpg; sourceTree = "<group>"; };
+		36EA0D4F1B0E02B700B1EF48 /* DefinitelyMaybe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DefinitelyMaybe.jpg; sourceTree = "<group>"; };
+		36EA0D501B0E02B700B1EF48 /* MorningGlory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MorningGlory.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,10 @@
 		36EA0D2C1B0DEEAE00B1EF48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				366588421B115183006CC10A /* swichOasisLP.gif */,
+				36EA0D4E1B0E02B700B1EF48 /* BeHereNow.jpg */,
+				36EA0D4F1B0E02B700B1EF48 /* DefinitelyMaybe.jpg */,
+				36EA0D501B0E02B700B1EF48 /* MorningGlory.jpg */,
 				36EA0D2D1B0DEEAE00B1EF48 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +204,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EA0D531B0E02B700B1EF48 /* MorningGlory.jpg in Resources */,
 				36EA0D341B0DEEAE00B1EF48 /* Main.storyboard in Resources */,
+				366588431B115183006CC10A /* swichOasisLP.gif in Resources */,
+				36EA0D521B0E02B700B1EF48 /* DefinitelyMaybe.jpg in Resources */,
 				36EA0D391B0DEEAE00B1EF48 /* LaunchScreen.xib in Resources */,
 				36EA0D361B0DEEAE00B1EF48 /* Images.xcassets in Resources */,
+				36EA0D511B0E02B700B1EF48 /* BeHereNow.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				36EA0D4A1B0DEEAE00B1EF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36EA0D4B1B0DEEAE00B1EF48 /* Build configuration list for PBXNativeTarget "swichOasisLPTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				36EA0D4D1B0DEEAE00B1EF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
