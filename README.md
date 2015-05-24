@@ -3,4 +3,4 @@
 - タッチ完了時に最も近いフレームへ画像を表示します。
 - ただしある条件以上の距離の場合には、元いた位置に吸着されます。
 
-![switchLPImage](https://github.com/anthrgrnwrld/informLocationImage/blob/master/InformLocatationImage/informLocationImage.png)
+![switchLPImage](https://github.com/anthrgrnwrld/switchLPImage/blob/master/swichOasisLP/swichOasisLP.gif)
